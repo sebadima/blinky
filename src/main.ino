@@ -11,7 +11,7 @@ void loop() {
   delay(500);
   digitalWrite(LED,HIGH);
   Serial.println("Led è HIGH");
-  delay(500);
+  delay(2000);
   digitalWrite(LED,LOW);
   Serial.println("Led è LOW");
 }
